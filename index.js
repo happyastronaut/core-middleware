@@ -5,6 +5,7 @@ const account = require("./backend/config.js")
 const util = require("./backend/util.js")
 const tools = require("./backend/tools.js")
 
+//smart-contract V2
 switch (process.argv[2]) {
   case "readtask":
     readtask()
