@@ -1,0 +1,23 @@
+{
+  "name": "core-middleware",
+  "version": "1.0.0",
+  "description": "core middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "blockchain",
+    "neo",
+    "neon-js",
+    "dApp"
+  ],
+  "author": "Vladyslav Hubar",
+  "license": "MIT",
+  "dependencies": {
+    "@cityofzion/neo-js": "^0.8.1",
+    "@cityofzion/neon-js": "^3.9.1",
+    "ext-ip": "^0.3.8",
+    "ip": "^1.1.5"
+  }
+}
