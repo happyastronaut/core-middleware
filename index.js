@@ -43,8 +43,9 @@ function readtask() {
 
 function registertask() {
   tools.getExtIP().then((ip) => {
-    neo.invokeContract("registertask", account.address, ip).then((res) => {
+    neo.invokeContract("registertask", [account.address, ip+"new2"]).then((res) => {
       console.log(res);
     })
   })
 }
+
